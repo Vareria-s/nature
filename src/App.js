@@ -2,6 +2,10 @@ import logo from './img/logo.png';
 import love from './img/love.png';
 import banner from './img/banner.jpg';
 import home from './img/home1.jpg';
+import image1 from './img/image1.svg';
+import image2 from './img/image2.svg';
+import image3 from './img/image3.svg';
+import image4 from './img/image4.svg';
 import './App.css';
 
 function App() {
@@ -59,6 +63,48 @@ function App() {
             </div>
             <div className="about-us-block-two">
                 <img src={home} alt=""/>
+            </div>
+        </div>
+        <div className="types-of-glamping">
+            <div className="types-of-glamping-block-one">
+                <div className="types-of-glamping-card">
+                    <div className="types-of-glamping-card-img">
+                        <img src={image1} alt=""/>
+                    </div>
+                    <div className="types-of-glamping-text">
+                        <h3>Tree House</h3>
+                        <p>Lorem ipsum dolor sit amet, conscte tur adipis ncing elit, sed do eiusmod tempor incididunt ut labore et dolore magna our aliqua ut enim</p>
+                    </div>
+                </div>
+                <div className="types-of-glamping-card">
+                    <div className="types-of-glamping-card-img">
+                        <img src={image3} alt=""/>
+                    </div>
+                    <div className="types-of-glamping-text">
+                        <h3>Tree House</h3>
+                        <p>Lorem ipsum dolor sit amet, conscte tur adipis ncing elit, sed do eiusmod tempor incididunt ut labore et dolore magna our aliqua ut enim</p>
+                    </div>
+                </div>
+            </div>
+            <div className="types-of-glamping-block-two">
+                <div className="types-of-glamping-card">
+                    <div className="types-of-glamping-card-img">
+                        <img src={image2} alt=""/>
+                    </div>
+                    <div className="types-of-glamping-text">
+                        <h3>Tree House</h3>
+                        <p>Lorem ipsum dolor sit amet, conscte tur adipis ncing elit, sed do eiusmod tempor incididunt ut labore et dolore magna our aliqua ut enim</p>
+                    </div>
+                </div>
+                <div className="types-of-glamping-card">
+                    <div className="types-of-glamping-card-img">
+                        <img src={image4} alt=""/>
+                    </div>
+                    <div className="types-of-glamping-text">
+                        <h3>Tree House</h3>
+                        <p>Lorem ipsum dolor sit amet, conscte tur adipis ncing elit, sed do eiusmod tempor incididunt ut labore et dolore magna our aliqua ut enim</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div className="footer">

@@ -94,7 +94,7 @@
 .banner-block-one img {
     height: 591px;
     width: 1440px;
-    object-fit: cover
+    object-fit: cover;
 }
 
 .banner-block-two {
@@ -185,7 +185,7 @@
 }
 
 .about-us {
-    padding: 157px 132px;
+    padding: 80px 132px;
     display: flex;
 }
 
@@ -224,6 +224,44 @@
 .about-us-block-two img{
     width: 100%;
 }
+
+.types-of-glamping {
+    padding: 80px 132px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.types-of-glamping-card {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.types-of-glamping-card-img {
+    width: 180px;
+}
+
+.types-of-glamping-card-img img{
+    display: flex;
+    object-fit: cover;
+}
+
+.types-of-glamping-text {
+    width: 360px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
     display: flex;
@@ -270,8 +308,6 @@
 .footer-block-three {
     width: 210px;
 }
-
-
 
 .footer-block-three h3{
     font-size: 25px;
